@@ -1,229 +1,223 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>NEO//SIO | Portfolio Cyber Rouge</title>
-    <!-- Google Fonts + Font Awesome -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Lien vers le fichier CSS externe -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>DE SOUSA MARTINS Afonso | Portfolio BTS SIO SLAM</title>
+  <!-- Polices -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <!-- Feuille de style externe -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="cyber-overlay"></div>
-<div class="wrapper">
-    <!-- Navigation cyber -->
-    <nav class="navbar">
-        <div class="logo">PORTFOLIO<span>//SIO</span></div>
-        <ul class="nav-links">
-            <li><a href="#accueil">ACCUEIL</a></li>
-            <li><a href="#about">//À PROPOS</a></li>
-            <li><a href="#skills">COMPÉTENCES</a></li>
-            <li><a href="#projects">PROJETS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
+  <div class="scanlines"></div>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <h1 class="glitch" data-text="Alex Dufresne">DE SOUSA MARTINS Afonso</h1>
+      <div class="subtitle" id="typewriter"></div>
+      <p class="tagline">/* Explore. Code. Create. */</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-links">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
     </nav>
 
-    <!-- Hero / accueil -->
-    <section id="accueil" class="hero">
-        <div class="glitch">DE SOUSA MARTINS Afonso <br >// BTS SIO</div>
-        <div class="hero-tag">
-            <i class="fas fa-terminal"></i>  Étudiant 1ère année | Spécialité SLAM & Cybersécurité
-        </div>
-        <p style="max-width: 650px; color: #ddd;">Passionné par le développement, les infrastructures réseau et le cyberpunk. Actuellement à la recherche d'un <span class="highlight-red">stage en développement ou administration systèmes</span> pour 2025.</p>
-        <div>
-            <a href="#projects" class="btn-neon"><i class="fas fa-code-branch"></i> Explorer les projets</a>
-            <a href="#" id="cvButton" class="btn-neon"><i class="fas fa-download"></i> CV Cyber</a>
-        </div>
-        <div class="cyber-line"></div>
+    <!-- À PROPOS -->
+    <section id="apropos">
+      <h2 class="section-title">À propos</h2>
+      <p class="about-text">
+        Étudiant en <strong>BTS SIO option SLAM</strong> (Solutions Logicielles et Applications Métiers), 
+        je suis passionné par le développement logiciel et la création d’applications. Curieux, rigoureux et 
+        adepte de l’apprentissage continu, je conçois des projets alliant logique métier et expérience utilisateur. 
+        Mon objectif : devenir développeur full-stack et contribuer à des solutions innovantes.
+      </p>
     </section>
 
-    <!-- À propos BTS SIO -->
-    <section id="about">
-        <h2 class="section-title">&lt; À PROPOS /&gt;</h2>
-        <div class="about-text">
-            <p><strong>BTS SIO (Services Informatiques aux Organisations)</strong> – première année, option <span class="highlight-red">SLAM (Solutions Logicielles et Applications Métiers)</span>.</p>
-            <p style="margin-top: 1rem;">Je développe des compétences solides en programmation (Python, Java, PHP/MySQL), conception d'applications, gestion de bases de données et cybersécurité. Rigoureux et passionné par les nouvelles technologies, je souhaite contribuer à des projets innovants tout en poursuivant une alternance en deuxième année.</p>
-            <p style="margin-top: 1rem;"><i class="fas fa-shield-alt" style="color:#ff1e4d;"></i> Veille technologique : ransomware, cloud, DevSecOps. <br>
-            <i class="fas fa-laptop-code"></i> Outils maîtrisés : VS Code, Git, Figma, Docker (bases), VirtualBox.</p>
+    <!-- COMPÉTENCES -->
+    <section id="competences">
+      <h2 class="section-title">Compétences</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Langages</h3>
+          <div class="skill-item">
+            <div class="skill-name"><span>HTML / CSS</span><span>85%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name"><span>JavaScript</span><span>1%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:01%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name"><span>PHP</span><span>65%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:65%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name"><span>SQL / MySQL</span><span>75%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:75%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name"><span>Python</span><span>50%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:50%"></div></div>
+          </div>
         </div>
+        <div class="skill-category">
+          <h3>Outils & OS</h3>
+          <div class="skill-item">
+            <div class="skill-name"><span>VS Code</span><span>90%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:90%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name"><span>Git / GitHub</span><span>-67%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name"><span>Linux (terminal)</span><span>2%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:2%"></div></div>
+          </div>
+          <div class="soft-skills">
+            <span class="soft-tag">Travail en équipe</span>
+            <span class="soft-tag">Rigueur</span>
+            <span class="soft-tag">Autoformation</span>
+            <span class="soft-tag">Anglais technique</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Compétences techniques -->
-    <section id="skills">
-        <h2 class="section-title">[ COMPÉTENCES ]</h2>
-        <div class="skills-grid">
-            <span class="skill-badge">Python / Flask</span>
-            <span class="skill-badge">Java (POO)</span>
-            <span class="skill-badge">HTML5/CSS3</span>
-            <span class="skill-badge">PHP / MySQL</span>
-            <span class="skill-badge">SQL / PostgreSQL</span>
-            <!--
-            <span class="skill-badge">JavaScript (ES6)</span>          
-            <span class="skill-badge">Git & GitHub</span>
-            <span class="skill-badge">Réseaux (Cisco)</span>
-            <span class="skill-badge">Sécurité / chiffrement</span>
-            <span class="skill-badge">Linux (Ubuntu/Kali)</span>
-            <span class="skill-badge">API REST</span>
-            <span class="skill-badge">UI/UX design</span>
-            -->
+    <!-- PROJETS -->
+    <section id="projets">
+      <h2 class="section-title">Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>Portfolio cyberpunk</h4>
+          <p>Site vitrine monochrome avec animations CSS, effet glitch et design terminal. Développé en HTML/CSS natif.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
         </div>
-        <div class="cyber-line" style="margin: 2rem 0 0 0;"></div>
-        <div style="margin-top: 1.5rem;">
-            <p><i class="fas fa-certificate" style="color:#ff1e4d;"></i> Certifications en cours : <strong>SecNum Académie (ANSSI)</strong> | <strong>Cisco CCNA v7</strong> | <strong>MOOC RGPD</strong></p>
+        <!--
+        <div class="project-card">
+          <h4>Gestionnaire de notes</h4>
+          <p>Application web de suivi des notes d’étudiants, avec authentification, CRUD et interface responsive.</p>
+          <div class="project-tech"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
         </div>
+        
+        <div class="project-card">
+          <h4>Jeu du pendu</h4>
+          <p>Jeu interactif en JavaScript avec choix de mots aléatoires, compteur d’essais et interface rétro.</p>
+          <div class="project-tech"><span>JavaScript</span><span>HTML5</span></div>
+        </div>
+        <div class="project-card">
+          <h4>Script de sauvegarde auto</h4>
+          <p>Script Bash qui compresse et archive automatiquement des dossiers selon une planification cron.</p>
+          <div class="project-tech"><span>Bash</span><span>Linux</span></div>
+        </div>
+      </div>
+      -->
     </section>
 
-    <!-- Projets marquants -->
-    <section id="projects">
-        <h2 class="section-title">// PROJETS EN COURS</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-database"></i></div>
-                <h3>Rien pour l'instant ;P</h3>
-                <p>Rien à noter pour l'instant, donc pour c'est juste un template!</p>
-            </div>
-            <!--
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-database"></i></div>
-                <h3>GestIUT - Gestion des notes</h3>
-                <p>Application web complète pour la gestion des étudiants, notes et promotions. Développée en PHP/MySQL avec interface Bootstrap et authentification sécurisée.</p>
-                <div class="tech-stack"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>JavaScript</span></div>
-                <i class="fas fa-code" style="color:#ff4d6d;"></i> <small>Projet de semestre 1</small>
-            </div>
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-robot"></i></div>
-                <h3>CyberMonitor - dashboard réseau</h3>
-                <p>Simulation d’un tableau de bord de supervision réseau avec Flask, affichage des logs et alertes en temps réel. Mise en avant de la cybersécurité offensive/défensive.</p>
-                <div class="tech-stack"><span>Python/Flask</span><span>SocketIO</span><span>Chart.js</span></div>
-                <i class="fas fa-shield-haltered"></i> <small>Projet personnel</small>
-            </div>
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-store"></i></div>
-                <h3>NEO-Commerce (E-commerce fictif)</h3>
-                <p>Site e-commerce avec panier, gestion de sessions, et interface administrateur. Réalisé en Java/JSP et MySQL. Mise en place de patterns MVC.</p>
-                <div class="tech-stack"><span>Java/JEE</span><span>JDBC</span><span>Bootstrap</span></div>
-                <i class="fas fa-cart-shopping"></i> <small>Projet collaboratif BTS</small>
-            </div>
-            <div class="project-card">
-                <div class="project-icon"><i class="fas fa-network-wired"></i></div>
-                <h3>Configuration Réseau Sécurisé</h3>
-                <p>Mise en place d’une infrastructure virtuelle (routeurs, switchs) sur Cisco Packet Tracer avec VLAN, ACL et NAT. Documentation technique complète.</p>
-                <div class="tech-stack"><span>CCNA</span><span>Subnetting</span><span>Firewall</span></div>
-                <i class="fas fa-lock"></i> <small>Projet réseau</small>
-            </div>
-        </div>
-        <div style="text-align: center; margin-top: 2rem;">
-            <a href="#" class="btn-neon" style="font-size:0.9rem;"><i class="fab fa-github"></i> Voir tous les dépôts GitHub</a>
-        </div>
-        -->
+    <!-- FORMATION -->
+    <section id="formation">
+      <h2 class="section-title">Formation</h2>
+      <div class="timeline-item">
+        <h3>BTS SIO option SLAM</h3>
+        <p class="date">2025 – 2027 (en cours)</p>
+        <p>Lycée Lamartine, Mâcon. Apprentissage des concepts de programmation orientée objet, bases de données, cybersécurité et développement d’applications.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Baccalauréat général</h3>
+        <p class="date">2023 – 2025</p>
+        <p>Spécialités Mathématiques et LLCE (Anglais).</p>
+      </div>
     </section>
 
-    <!-- Contact & réseaux style cyber -->
+    <!-- CONTACT -->
     <section id="contact">
-        <h2 class="section-title">[ CONNEXION ]</h2>
-        <div class="contact-links">
-            <a href="#" class="contact-card" id="mailBtn"><i class="fas fa-envelope"></i> fonzi2308.@gmail.com</a>
-            <!--  <a href="#" class="contact-card" id="githubMock"><i class="fab fa-github"></i> /elyx-sio</a> -->
-            <a href="#" class="contact-card" id="linkedinMock"><i class="fab fa-linkedin-in"></i> DE SOUSA MARTINS Afonso. - BTS SIO</a>
-            <!-- <a href="#" class="contact-card"><i class="fab fa-discord"></i> elyx_cyber#0793</a> -->
-        </div>
-        <div style="margin-top: 3rem;">
-            <p style="margin-bottom: 1rem;"><i class="fas fa-paper-plane"></i> Envoyez un message direct :</p>
-            <form id="cyberForm">
-                <div class="form-group">
-                    <input type="text" placeholder="Pseudonyme / Email" id="contactName" required>
-                </div>
-                <div class="form-group">
-                    <textarea rows="3" placeholder="Message crypté ..." id="contactMsg" required></textarea>
-                </div>
-                <button type="submit"><i class="fas fa-bolt"></i> TRANSMETTRE</button>
-            </form>
-        </div>
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-links">
+        <a href="mailto:fonzi2308@gmail.com" class="contact-item">
+          <span class="contact-icon">📧</span> fonzi2308@gmail.com
+        </a>
+        <a href="https://github.com/alex-dufresne" target="_blank" class="contact-item">
+          <span class="contact-icon">🐙</span> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/alex-dufresne" target="_blank" class="contact-item">
+          <span class="contact-icon">🔗</span> LinkedIn
+        </a>
+        <!--<span class="contact-item">
+          <span class="contact-icon">📍</span> Paris, France
+        </span>
+        -->
+      </div>
     </section>
 
-    <footer>
-        <p><i class="fas fa-microchip"></i> BTS SIO 1ère année – Portfolio | Designed with <span style="color:#ff1e4d;">&lt;3</span> et néons</p>
-        <p>© 2025 - Tous les liens et informations sont à but démonstratif.</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 DE SOUSA MARTINS Afonso – Portfolio BTS SIO SLAM – Design monochrome</p>
     </footer>
-</div>
+  </div>
+  <!--
+    -- Script d'effet machine à écrire (léger) 
+  <script>
+    (function() {
+      const subtitle = document.getElementById('typewriter');
+      const text = 'BTS SIO – option SLAM';
+      let i = 0;
+      function type() {
+        if (i < text.length) {
+          subtitle.innerHTML = text.substring(0, i + 1) + '<span class="cursor"></span>';
+          i++;
+          setTimeout(type, 80);
+        } else {
+          subtitle.innerHTML = text + '<span class="cursor"></span>';
+        }
+      }
+      type();
+    })();
+  </script>
+    -->
+  <!-- Script typewriter + animation au scroll -->
+  <script>
+    (function() {
+      // Effet machine à écrire
+      const subtitle = document.getElementById('typewriter');
+      const text = 'BTS SIO – option SLAM';
+      let i = 0;
+      function type() {
+        if (i < text.length) {
+          subtitle.innerHTML = text.substring(0, i + 1) + '<span class="cursor"></span>';
+          i++;
+          setTimeout(type, 80);
+        } else {
+          subtitle.innerHTML = text + '<span class="cursor"></span>';
+        }
+      }
+      type();
 
-<script>
-    // Interactions : alertes pour les boutons, CV, formulaire
-    const cvBtn = document.getElementById('cvButton');
-    if(cvBtn) {
-        cvBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert("📄 Téléchargement du CV (version portfolio) : Elyx K. - BTS SIO, compétences en développement, réseaux et cybersécurité. (simulation)");
+      // Intersection Observer pour les animations au scroll
+      const revealElements = document.querySelectorAll('.scroll-reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            // Optionnel : arrêter d'observer une fois visible
+            observer.unobserve(entry.target);
+          }
         });
-    }
-    // simulation mail / github / linkedin
-    const mailBtn = document.getElementById('mailBtn');
-    if(mailBtn) {
-        mailBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert("📧 fonzi2308@gmail.com | N'hésitez pas à envoyer un message pour des discussions professionel.");
-        });
-    }
-    const githubMock = document.getElementById('githubMock');
-    if(githubMock) {
-        githubMock.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert("🔗 GitHub : https://github.com/elyx-sio (projets publics : gestion d'étudiants, dashboard, scripts python)");
-        });
-    }
-    const linkedinMock = document.getElementById('linkedinMock');
-    if(linkedinMock) {
-        linkedinMock.addEventListener('click', (e) => {
-            e.preventDefault();
-            alert("🔗 LinkedIn : DE SOUSA MARTINS Afonso - Étudiant BTS SIO, stage chez biosync à Mâcon.");
-        });
-    }
+      }, {
+        threshold: 0.15,
+        rootMargin: '0px 0px -50px 0px'
+      });
 
-    // Formulaire contact style
-    const form = document.getElementById('cyberForm');
-    if(form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const name = document.getElementById('contactName').value.trim();
-            const msg = document.getElementById('contactMsg').value.trim();
-            if(name === "" || msg === "") {
-                alert("⚠️ ERREUR : Tous les champs doivent être remplis avant transmission.");
-            } else {
-                alert(`✅ Message envoyé via liaison sécurisée.\nMerci ${name}, je reviendrai vers vous dès que possible.`);
-                form.reset();
-            }
-        });
-    }
-
-    // Smooth + navigation active dynamique (scroll spy basique)
-    const sections = document.querySelectorAll('section');
-    const navLinks = document.querySelectorAll('.nav-links a');
-    function changeActiveLink() {
-        let current = "";
-        const scrollPos = window.scrollY + 150;
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if(scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
-                current = section.getAttribute('id');
-            }
-        });
-        navLinks.forEach(link => {
-            link.style.color = "#e0e0e0";
-            link.style.textShadow = "none";
-            const href = link.getAttribute('href').substring(1);
-            if(href === current && current !== "") {
-                link.style.color = "#ff3366";
-                link.style.textShadow = "0 0 4px #ff1e4d";
-            }
-        });
-    }
-    window.addEventListener('scroll', changeActiveLink);
-    window.addEventListener('load', changeActiveLink);
-
-    console.log("%c[🔴 NEO//SIO] Portfolio BTS S1 - Cyber Style Opérationnel", "color: #ff1e4d; font-family: monospace; font-size: 14px;");
-</script>
+      revealElements.forEach(el => observer.observe(el));
+    })();
+  </script>
 </body>
 </html>
