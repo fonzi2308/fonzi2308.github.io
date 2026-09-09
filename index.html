@@ -17,7 +17,7 @@
 
     <!-- HEADER -->
     <header class="header">
-      <h1 class="glitch" data-text="Alex Dufresne">DE SOUSA MARTINS Afonso</h1>
+      <h1 class="glitch" data-text="DE SOUSA MARTINS Afonso">DE SOUSA MARTINS Afonso</h1>
       <div class="subtitle" id="typewriter"></div>
       <p class="tagline">/* Explore. Code. Create. */</p>
     </header>
@@ -142,14 +142,19 @@
     <section id="contact">
       <h2 class="section-title">Contact</h2>
       <div class="contact-links">
-        <a href="mailto:fonzi2308@gmail.com" class="contact-item">
-          <span class="contact-icon">📧</span> fonzi2308@gmail.com
-        </a>
-        <a href="https://github.com/alex-dufresne" target="_blank" class="contact-item">
+        <div class="contact-item"><span>fonzi2308@gmail.com</span></div>
+        <button ondblclick="myalert()" class="contact-item">
+        Show Alert Message
+        </button>
+        <a href="https://github.com/fonzi2308" target="_blank" class="contact-item">
           <span class="contact-icon">🐙</span> GitHub
         </a>
-        <a href="https://www.linkedin.com/in/alex-dufresne" target="_blank" class="contact-item">
+        
+        <a href="https://www.linkedin.com/in/afonso-de-sousa-martins-3312143a6/" target="_blank" class="contact-item">
           <span class="contact-icon">🔗</span> LinkedIn
+        </a>
+        <a href="https://www.linkedin.com/in/alex-dufresne" target="_blank" class="contact-item">
+          <span class="contact-icon">📜</span> CV
         </a>
         <!--<span class="contact-item">
           <span class="contact-icon">📍</span> Paris, France
@@ -194,7 +199,7 @@
         if (i < text.length) {
           subtitle.innerHTML = text.substring(0, i + 1) + '<span class="cursor"></span>';
           i++;
-          setTimeout(type, 80);
+          setTimeout(type, 20);
         } else {
           subtitle.innerHTML = text + '<span class="cursor"></span>';
         }
@@ -218,6 +223,12 @@
 
       revealElements.forEach(el => observer.observe(el));
     })();
+
+    function myalert() {
+            alert("Welcome to GeeksforGeeks.\n " +
+                "It is the best portal for computer" +
+                "science enthusiasts!");
+        };
   </script>
 </body>
 </html>
